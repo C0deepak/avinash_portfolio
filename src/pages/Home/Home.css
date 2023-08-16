@@ -1,0 +1,239 @@
+.homeHero {
+    min-height: 110vh;
+    background-image: url('../../../public/img/homebg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 65px;
+    padding: 196px 40px 60px;
+}
+
+.homeHeroText {
+    max-width: 898px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.homeHeroHeading {
+    color: #E8E8E8;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.homeHeroHeading span {
+    color: #FFC800;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.homeHeroPara {
+    color: #D8D8D8;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 150%;
+}
+
+.homeHeroPara span {
+    color: #FFC800;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 150%;
+}
+
+.homeHeroButton {
+    display: flex;
+    padding: 8px 16px 8px 32px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 70px;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(22px);
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: normal;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.homeHeroArrow {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #FFF;
+    color: #FFF;
+    transition: .4s;
+}
+
+.homeHeroButton:hover .homeHeroArrow {
+    transform: translateX(6px);
+}
+
+.homeHeroCardWrap {
+    width: 100%;
+    display: flex;
+    height: 164px;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.homeHeroCard {
+    display: flex;
+    padding: 65px 29px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    align-self: stretch;
+    background: rgba(77, 77, 77, 0.50);
+    backdrop-filter: blur(2px);
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 900;
+    transition: .4s;
+}
+
+.homeHeroCard:hover {
+    transform: scale(1.04);
+}
+
+.homeAbout {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.homeAboutLeft {
+    display: flex;
+    max-width: 742px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    flex-shrink: 0;
+}
+
+.homeALText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 26px;
+}
+
+.homeALTPara {
+    color: #B3B3B3;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.homeALSocial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.homeALSText {
+    color: #E8E8E8;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.homeALSLinks {
+    display: flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.homeALSLinks a {
+    color: #AEAEAE;
+    text-decoration: none;
+    font-size: 1.32rem;
+}
+
+.homeSoftware {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 40px;
+}
+
+.homeSoftwareWrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 19px;
+    width: 100%;
+}
+
+.homeTestimonial {
+    display: flex;
+    margin: 40px 40px;
+    padding: 40px;
+    flex-direction: column;
+    gap: 40px;
+    background: #0E0E0E;
+    position: relative;
+}
+
+.homeTDArrow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(180deg);
+    font-size: 16rem;
+    color: #161616;
+}
+
+.homeTUArrow {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 16rem;
+    z-index: 1;
+    color: #161616;
+}
+
+.homeTestimonialWrap{
+    position: relative;
+    z-index: 2;
+}
+
+.testimonialSlider {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    width: 100%;
+    overflow: auto;
+    padding: 40px 0;
+}
+
+.testimonialSlider::-webkit-scrollbar {
+    height: 0;
+}

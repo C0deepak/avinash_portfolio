@@ -1,0 +1,44 @@
+.softwareCard {
+    display: flex;
+    max-width: 286px;
+    aspect-ratio: 1 / 1;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    background: #0E0E0E;
+}
+
+.softwareCTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.softwareCTPro {
+    display: flex;
+    padding: 4px 8px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 191, 0, 0.74);
+    color: rgba(255, 191, 0, 0.74);
+    font-family: 'Roboto', sans-serif;
+    font-size: 8px;
+    font-weight: 400;
+}
+
+.softwareCHeading {
+    color: #E8E8E8;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.softwareCPara {
+    color: #AEAEAE;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}

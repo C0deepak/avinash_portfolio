@@ -1,0 +1,36 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding: 16px 40px;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.50);
+    backdrop-filter: blur(8px);
+    z-index: 10;
+}
+
+.navbarLogo {
+    color: #B3B3B3;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.navbarLink {
+    display: flex;
+    align-items: flex-start;
+    gap: 64px;
+}
+
+.navbarLink a {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+}

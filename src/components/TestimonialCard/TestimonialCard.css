@@ -1,0 +1,54 @@
+.testimonialCard {
+    display: flex;
+    min-width: 350px;
+    height: 230px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    border-radius: 12px;
+    background: #121212;
+}
+
+.tCStars {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 1.1rem;
+    color: #FFC800;
+}
+
+.tCPara {
+    color: #8E8E8E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.tCClient {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.tCCName {
+    color: #E8E8E8;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.tCCLocation {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #8E8E8E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
