@@ -1,0 +1,120 @@
+.workHero {
+    display: flex;
+    background-image: url('../../../public/img/works.png');
+    background-size: cover;
+    background-position: center;
+    gap: 65px;
+    height: 359px;
+    padding: 50px 142px 0;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.workHeroText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.workHeroHeading {
+    color: #E8E8E8;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.workHeroHeading span {
+    color: #FFC800;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.workHeroPara {
+    color: #B3B3B3;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    max-width: 995px;
+}
+
+.workYoutube {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.wYHeading {
+    color: #E8E8E8;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.wYWrap, .wSWrap{
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.wYWrap::-webkit-scrollbar,
+.wSWrap::-webkit-scrollbar{
+    height: 4px;
+}
+
+/* .wYWrap::-webkit-scrollbar-track{
+    background: #777;
+}
+
+.wYWrap::-webkit-scrollbar-thumb{
+    background: #E8E8E8;
+} */
+
+.wYWrap iframe{
+    min-width: 387px;
+    height: 220px;
+    background: #101010;
+}
+
+.wSWrap iframe{
+    min-width: 285px;
+    height: 500px;
+    background: #101010;
+}
+
+.workContact {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.workContactLeft {
+    display: flex;
+    max-width: 742px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22px;
+    flex-shrink: 0;
+}
+
+.workCLText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 26px;
+}
+
+.workCLTPara {
+    color: #B3B3B3;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+}

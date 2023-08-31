@@ -1,0 +1,43 @@
+.accCard {
+    background: #101010;
+    min-width: 100%;
+}
+
+.accQues {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    background: #101010;
+    color: #fff;
+    cursor: pointer;
+}
+
+.accQuesText{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.accQuesIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #717171;
+}
+
+.accAns {
+    border-top: 1px solid #222;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    background: #101010;
+    color: #ddd;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}

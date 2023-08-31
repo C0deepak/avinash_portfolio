@@ -1,7 +1,7 @@
 .yellowButton {
     display: flex;
     padding: 16px 40px;
-    align-items: flex-start;
+    align-items: center;
     gap: 10px;
     border-radius: 8px;
     background: #FFC800;
@@ -9,7 +9,8 @@
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 900;
-    text-transform: uppercase;
+    gap: 12px;
+    text-transform: capitalize;
     cursor: pointer;
     position: relative;
     overflow: hidden;

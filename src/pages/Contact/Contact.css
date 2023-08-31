@@ -1,0 +1,275 @@
+.contactHero {
+    display: flex;
+    background-image: url('../../../public/img/contact.png');
+    background-size: cover;
+    background-position: center;
+    gap: 65px;
+    height: 359px;
+    padding: 50px 142px 0;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.contactHeroText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.contactHeroHeading {
+    color: #E8E8E8;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.contactHeroHeading span {
+    color: #FFC800;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.contactHeroPara {
+    color: #B3B3B3;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    max-width: 995px;
+}
+
+.otherHeading {
+    color: #E8E8E8;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.otherHeading span {
+    color: #FFC800;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.contactAbout {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contactAboutLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 44px;
+}
+
+.contactAboutLeftTop {
+    display: flex;
+    max-width: 668px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex-shrink: 0;
+}
+
+.contactALText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 26px;
+}
+
+.contactALTPara {
+    color: #B3B3B3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+a.buttonLink{
+    text-decoration: none;
+}
+
+.contactALSocial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.contactALSText {
+    color: #E8E8E8;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.contactALSLinks {
+    display: flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.contactALSLinks a {
+    color: #AEAEAE;
+    text-decoration: none;
+    font-size: 1.32rem;
+}
+
+.contactAboutLeftBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.contactALSubscribe {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    align-self: stretch;
+}
+
+.contactALSDetail {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contactALSDImg {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.contactALSDImg img {
+    width: 100%;
+}
+
+.contactALSDText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.contactALSDTHeading {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.contactALSDTPara {
+    display: flex;
+    align-items: flex-start;
+    gap: 9px;
+}
+
+.contactALSDTPDiv {
+    color: #898989;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+a.contactALSButton {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 70px;
+    background: #FFF;
+    color: #101010;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.contactAboutRight form {
+    display: flex;
+    width: 488px;
+    padding: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background: #101010;
+}
+
+.contactARFHeading {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.contactARFForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.contactARFForm input {
+    display: flex;
+    padding: 20px 16px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    background: #1d1d1d;
+    border: none;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.contactAboutRight form button {
+    display: flex;
+    padding: 16px 64px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #FFC800;
+    color: #474747;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 900;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.contactFaq {
+    padding: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contactFaqWrap {
+    display: flex;
+    padding: 40px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+}

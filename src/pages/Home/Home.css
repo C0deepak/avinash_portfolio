@@ -118,6 +118,10 @@
     transform: scale(1.04);
 }
 
+.homeHeroCard img{
+    width: 70%;
+}
+
 .homeAbout {
     padding: 40px;
     display: flex;
@@ -188,6 +192,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
+    justify-content: space-between;
     gap: 19px;
     width: 100%;
 }

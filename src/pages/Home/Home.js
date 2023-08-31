@@ -1,10 +1,9 @@
 import React from 'react'
 import './Home.css'
-import { AiOutlineArrowRight } from 'react-icons/ai'
+import { AiFillInstagram, AiOutlineArrowRight } from 'react-icons/ai'
 import HomeHeaders from '../../components/HomeHeaders/HomeHeaders'
 import YellowButton from '../../components/YellowButton/YellowButton'
-import { TbMailFilled } from 'react-icons/tb'
-import { FaFacebook, FaLinkedin, FaYoutube } from 'react-icons/fa'
+import { FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
 import SoftwareCard from '../../components/SoftwareCard/SoftwareCard'
 import { PiQuotesBold } from 'react-icons/pi'
 import TestimonialCard from '../../components/TestimonialCard/TestimonialCard'
@@ -22,10 +21,10 @@ const Home = () => {
                 </div>
 
                 <div className="homeHeroCardWrap">
-                    <div className="homeHeroCard">Editing</div>
-                    <div className="homeHeroCard">Motion Design</div>
-                    <div className="homeHeroCard">Design</div>
-                    <div className="homeHeroCard">Colour Grading</div>
+                    <div className="homeHeroCard"><img src="/img/b1.png" alt="brand" /></div>
+                    <div className="homeHeroCard"><img src="/img/b2.png" alt="brand" /></div>
+                    <div className="homeHeroCard"><img src="/img/b3.png" alt="brand" /></div>
+                    <div className="homeHeroCard"><img src="/img/b4.png" alt="brand" /></div>
                 </div>
             </div>
 
@@ -41,10 +40,10 @@ const Home = () => {
                     <div className="homeALSocial">
                         <div className="homeALSText">Social links :</div>
                         <div className="homeALSLinks">
-                            <a href="#"><TbMailFilled /></a>
-                            <a href="#"><FaYoutube /></a>
-                            <a href="#"><FaFacebook /></a>
-                            <a href="#"><FaLinkedin /></a>
+                            <a href="https://www.instagram.com/mostcreativename/" target='_blank'><AiFillInstagram /></a>
+                            <a href="https://www.youtube.com/channel/UC16fdPcHgOz4L9OY5Ryk6dg" target='_blank'><FaYoutube /></a>
+                            <a href="https://twitter.com/Avinash4776947" target='_blank'><FaTwitter /></a>
+                            <a href="https://www.linkedin.com/in/avinash-kumar-yadav-99602520b" target='_blank'><FaLinkedin /></a>
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,36 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #0e0e0e;
+}
+
+.footerCopy{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem;
+    color: #e0e0e0;
+    width: 100%;
+    text-align: center;
+}
+
+.footerProm{
+    border-top: 1px solid #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .7rem;
+    font-weight: 500;
+    padding: .4rem;
+    color: #c0c0c0;
+    width: 100%;
+    text-align: center;
+}
+
+.footerProm a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .7rem;
+    font-weight: 500;
+    color: #e2e2e2;
+}

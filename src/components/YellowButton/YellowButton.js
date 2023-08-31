@@ -1,11 +1,11 @@
 import React from 'react'
 import './YellowButtom.css'
 
-const YellowButton = ({ text }) => {
+const YellowButton = ({ text, icon }) => {
     return (
         <div className="yellowButton">
             <div className="yellowButtonWrap"></div>
-            {text}
+            {text} {icon}
         </div>
     )
 }

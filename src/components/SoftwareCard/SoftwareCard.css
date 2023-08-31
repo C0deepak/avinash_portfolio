@@ -7,6 +7,14 @@
     align-items: flex-start;
     gap: 20px;
     background: #0E0E0E;
+    border: 2px solid #0073A100;
+    border-image-slice: 1;
+    transition: .4s;
+}
+
+.softwareCard:hover {
+    border-image-source: linear-gradient(#0073A1, #0073A100);
+    transition: .4s;
 }
 
 .softwareCTop {
