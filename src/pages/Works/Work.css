@@ -58,14 +58,15 @@
     font-weight: 900;
 }
 
-.wYWrap, .wSWrap{
+.wYWrap,
+.wSWrap {
     display: flex;
     overflow-x: auto;
     gap: 20px;
 }
 
 .wYWrap::-webkit-scrollbar,
-.wSWrap::-webkit-scrollbar{
+.wSWrap::-webkit-scrollbar {
     height: 4px;
 }
 
@@ -77,13 +78,13 @@
     background: #E8E8E8;
 } */
 
-.wYWrap iframe{
+.wYWrap iframe {
     min-width: 387px;
     height: 220px;
     background: #101010;
 }
 
-.wSWrap iframe{
+.wSWrap iframe {
     min-width: 285px;
     height: 500px;
     background: #101010;
@@ -117,4 +118,87 @@
     font-family: Roboto;
     font-size: 20px;
     font-weight: 600;
+}
+
+.workContactRight {
+    width: 380px;
+    height: 380px;
+}
+
+.workContactRight img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 600px) {
+    .workHero {
+        height: 400px;
+        padding: 60px 20px 40px;
+    }
+
+    .workHeroText {
+        gap: 20px;
+    }
+
+    .workHeroHeading {
+        font-size: 28px;
+        text-align: left;
+    }
+
+    .workHeroHeading span {
+        font-size: 28px;
+    }
+
+    .workHeroPara {
+        font-size: 16px;
+    }
+
+    .workYoutube {
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .wYHeading {
+        font-size: 22px;
+    }
+
+    .wYWrap,
+    .wSWrap {
+        gap: 16px;
+    }
+
+    .wYWrap iframe {
+        min-width: 280px;
+        height: 180px;
+        background: #101010;
+    }
+
+    .wSWrap iframe {
+        min-width: 220px;
+        height: 400px;
+        background: #101010;
+    }
+
+    .workContact {
+        padding: 20px;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .workContactLeft {
+        gap: 20px;
+    }
+
+    .workCLText {
+        gap: 16px;
+    }
+
+    .workCLTPara {
+        font-size: 18px;
+    }
+
+    .workContactRight {
+        width: 90%;
+        height: auto;
+    }
 }

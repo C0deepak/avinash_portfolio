@@ -8,7 +8,7 @@ const Footer = () => {
             copyright &copy; BeyondAvinash 2023-24
         </div>
         <div className="footerProm">
-            Designed by <a href="">@modernArtist</a> & Developed by <a href="https://imalive.netlify.app">@DBros.</a>
+            Designed by <a href="https://modernartist.netlify.app" target='_blank'>@modernArtist</a> & Developed by <a href="https://imalive.netlify.app" target='_blank'>@DBros.</a>
         </div>
     </div>
   )

@@ -18,3 +18,19 @@
     font-size: 16px;
     font-weight: 600;
 }
+
+@media (max-width: 600px) {
+    .homeHeaders {
+        gap: 8px;
+    }
+
+    .homeHeadersHeading {
+        font-size: 28px;
+        font-weight: 800;
+    }
+
+    .homeHeadersSubHeading {
+        font-size: 14px;
+        font-weight: 600;
+    }
+}

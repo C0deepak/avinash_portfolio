@@ -95,7 +95,7 @@
     font-weight: 600;
 }
 
-a.buttonLink{
+a.buttonLink {
     text-decoration: none;
 }
 
@@ -152,10 +152,12 @@ a.buttonLink{
     width: 64px;
     height: 64px;
     border-radius: 50%;
+    overflow: hidden;
 }
 
 .contactALSDImg img {
     width: 100%;
+    object-fit: cover;
 }
 
 .contactALSDText {
@@ -272,4 +274,126 @@ a.contactALSButton {
     align-items: flex-start;
     gap: 20px;
     width: 100%;
+}
+
+@media (max-width: 600px) {
+    .contactHero {
+        height: 400px;
+        padding: 60px 20px 40px;
+    }
+
+    .contactHeroText {
+        gap: 20px;
+    }
+
+    .contactHeroHeading {
+        font-size: 28px;
+    }
+
+    .contactHeroHeading span {
+        font-size: 28px;
+    }
+
+    .contactHeroPara {
+        font-size: 16px;
+    }
+
+    .otherHeading {
+        font-size: 28px;
+    }
+
+    .otherHeading span {
+        font-size: 28px;
+    }
+
+    .contactAbout {
+        padding: 20px;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .contactAboutLeft {
+        gap: 30px;
+    }
+
+    .contactALTPara {
+        font-size: 16px;
+    }
+
+    .contactALSText {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .contactALSLinks {
+        gap: 18px;
+    }
+
+    .contactAboutLeftBottom {
+        gap: 18px;
+    }
+
+    .contactALSubscribe {
+        gap: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contactALSDetail {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .contactALSDImg {
+        width: 50px;
+        height: 50px;
+    }
+
+    .contactALSDTHeading {
+        font-size: 18px;
+    }
+
+    .contactALSDTPDiv {
+        font-size: 10px;
+    }
+
+    a.contactALSButton {
+        padding: 8px 16px;
+        font-size: 18px;
+    }
+
+    .contactAboutRight form {
+        width: 100%;
+        padding: 20px;
+        gap: 30px;
+    }
+
+    .contactARFHeading {
+        font-size: 20px;
+    }
+
+    .contactARFForm input {
+        padding: 16px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .contactAboutRight{
+        width: 100%;
+    }
+
+    .contactAboutRight form button {
+        padding: 10px 40px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .contactFaq {
+        padding: 20px;
+    }
+
+    .contactFaqWrap {
+        padding: 40px 0px;
+    }
 }

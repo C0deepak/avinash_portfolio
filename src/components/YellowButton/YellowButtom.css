@@ -32,3 +32,12 @@
 .yellowButton:hover .yellowButtonWrap {
     left: 0;
 }
+
+@media (max-width: 600px) {
+    .yellowButton {
+        padding: 10px 28px;
+        gap: 8px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+}

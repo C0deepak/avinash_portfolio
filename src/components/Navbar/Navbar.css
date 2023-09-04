@@ -34,3 +34,51 @@
     font-weight: 900;
     text-decoration: none;
 }
+
+.navHam{
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.navSidebar{
+    position: fixed;
+    top: 64px;
+    right: 0;
+    width: 300px;
+    height: calc(100vh - 64px);
+    background: rgba(0, 0, 0, 0.90);
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 1rem 2rem;
+    gap: .4rem;
+}
+
+.navSidebar a{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: .6rem;
+}
+
+.navHam{
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .navbarLink{
+        display: none;
+    }
+
+    .navHam{
+        display: initial;
+    }
+
+    .HireMe{
+        display: none;
+    }
+}

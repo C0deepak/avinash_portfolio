@@ -21,10 +21,14 @@ const Home = () => {
                 </div>
 
                 <div className="homeHeroCardWrap">
-                    <div className="homeHeroCard"><img src="/img/b1.png" alt="brand" /></div>
-                    <div className="homeHeroCard"><img src="/img/b2.png" alt="brand" /></div>
-                    <div className="homeHeroCard"><img src="/img/b3.png" alt="brand" /></div>
-                    <div className="homeHeroCard"><img src="/img/b4.png" alt="brand" /></div>
+                    <div className='homeHeroCardLevel'>
+                        <div className="homeHeroCard"><img src="/img/b1.png" alt="brand" /></div>
+                        <div className="homeHeroCard"><img src="/img/b2.png" alt="brand" /></div>
+                    </div>
+                    <div className='homeHeroCardLevel'>
+                        <div className="homeHeroCard"><img src="/img/b3.png" alt="brand" /></div>
+                        <div className="homeHeroCard"><img src="/img/b4.png" alt="brand" /></div>
+                    </div>
                 </div>
             </div>
 
@@ -47,16 +51,19 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className="homeAboutRight"></div>
+                <div className="homeAboutRight">
+                    <div className="homeAboutRightBox"></div>
+                    <img src="/img/hero.webp" alt="" />
+                </div>
             </div>
 
             <div className="homeSoftware">
-                <HomeHeaders heading="Software I use" subHeading="Software Info" />
+                <HomeHeaders heading="Services I Provide" subHeading="Services By Me" />
                 <div className="homeSoftwareWrap">
-                    <SoftwareCard img="/img/ae.svg" heading="Adobe Premiere Pro" para="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam" pro="true" />
-                    <SoftwareCard img="/img/pe.svg" heading="Adobe Premiere Pro" para="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam" pro="" />
-                    <SoftwareCard img="/img/ps.png" heading="Adobe Premiere Pro" para="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam" pro="true" />
-                    <SoftwareCard img="/img/figma.svg" heading="Adobe Premiere Pro" para="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam" pro="" />
+                    <SoftwareCard img="/img/s3.png" heading="Corporate videos" para="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam" pro="true" />
+                    <SoftwareCard img="/img/s2.png" heading="Youtube Videos" para="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam" pro="" />
+                    <SoftwareCard img="/img/s1.webp" heading="Shorts & Reels" para="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam" pro="true" />
+                    <SoftwareCard img="/img/s4.webp" heading="Ads & Promos" para="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam" pro="" />
                 </div>
             </div>
 
