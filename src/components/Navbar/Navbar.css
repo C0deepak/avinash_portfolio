@@ -35,6 +35,10 @@
     text-decoration: none;
 }
 
+.navbarLink a:hover{
+    color: #FFC800;
+}
+
 .navHam{
     font-size: 1.6rem;
     cursor: pointer;
@@ -63,6 +67,10 @@
     font-weight: 700;
     text-decoration: none;
     padding: .6rem;
+}
+
+.navSidebar a:hover{
+    color: #FFC800;
 }
 
 .navHam{

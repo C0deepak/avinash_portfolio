@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,8 +8,35 @@
   font-weight: 500;
 }
 
-body{
-  background: #000;
-  color: #fff;
+html {
+  scroll-behavior: smooth;
 }
 
+body {
+  background: #000;
+  color: #fff;
+  cursor: none;
+}
+
+.cursor-dot {
+  width: 6px;
+  height: 6px;
+  background: #fff;
+}
+
+.cursor-outline {
+  width: 28px;
+  height: 28px;
+  border: 2px solid #fff;
+}
+
+.cursor-dot,
+.cursor-outline {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 1000000;
+  pointer-events: none;
+}

@@ -10,7 +10,7 @@ const Work = () => {
     <div className='work'>
       <div className='workHero'>
         <div className="workHeroText">
-          <div className="workHeroHeading" style={{textAlign: 'center'}}>Showcasing My <span>Creations</span></div>
+          <div className="workHeroHeading" style={{ textAlign: 'center' }}>Showcasing My <span>Creations</span></div>
           <div className="workHeroPara">Our works span a spectrum of projects, from mesmerizing films to impactful commercials, each a testament to our commitment to visual storytelling. Join us on this visual journey, where every frame tells a unique tale.</div>
         </div>
       </div>
@@ -51,7 +51,7 @@ const Work = () => {
           <div className="workHeroHeading">Hope you liked my <span>Work</span></div>
           <div className="workCLText">
             <div className="workCLTPara">
-              We welcome your contact and encourage you to connect with us. Whether you have inquiries, ideas to share, or potential collaborations in mind, we're here and eager to engage. Your message is important to us, and we're excited about the opportunity to connect and explore the possibilities together. Feel free to reach out – we're just a message away!
+              I sincerely hope you enjoyed my work. Your satisfaction is my priority, and I'm here to bring your vision to life. If you have any feedback or future projects in mind, please don't hesitate to reach out. Thank you for choosing my services!
             </div>
           </div>
           <YellowButton text="Contact Me" />

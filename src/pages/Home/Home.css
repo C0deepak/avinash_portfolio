@@ -70,6 +70,10 @@
     transition: .4s;
 }
 
+a.homeHeroButton{
+    text-decoration: none;
+}
+
 .homeHeroArrow {
     width: 50px;
     height: 50px;

@@ -17,7 +17,7 @@ const Home = () => {
                     <div className="homeHeroHeading">Empowering Your <br /><span>Imagination</span> Through Video</div>
                     <div className="homeHeroPara">Hi I am <span>Avinash</span> an Android developer and ML and IoT enthusiast. <br />
                         I have worked made various high demand projects. Have a youtube channel with over 90,000 views.</div>
-                    <div className="homeHeroButton">Get Started <div className="homeHeroArrow" ><AiOutlineArrowRight /></div></div>
+                    <a href='#about' className="homeHeroButton">Get Started <div className="homeHeroArrow" ><AiOutlineArrowRight /></div></a>
                 </div>
 
                 <div className="homeHeroCardWrap">
@@ -32,7 +32,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="homeAbout">
+            <div className="homeAbout" id='about'>
                 <div className="homeAboutLeft">
                     <HomeHeaders heading="Quick Info" subHeading="About me" />
                     <div className="homeALText">
@@ -60,10 +60,10 @@ const Home = () => {
             <div className="homeSoftware">
                 <HomeHeaders heading="Services I Provide" subHeading="Services By Me" />
                 <div className="homeSoftwareWrap">
-                    <SoftwareCard img="/img/s3.png" heading="Corporate videos" para="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam" pro="true" />
-                    <SoftwareCard img="/img/s2.png" heading="Youtube Videos" para="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam" pro="" />
-                    <SoftwareCard img="/img/s1.webp" heading="Shorts & Reels" para="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam" pro="true" />
-                    <SoftwareCard img="/img/s4.webp" heading="Ads & Promos" para="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam" pro="" />
+                    <SoftwareCard img="/img/s3.png" heading="Corporate videos" para="Crafting compelling corporate videos that tell your unique story, engage your audience, and elevate your brand's image with professionalism and creativity." pro="true" />
+                    <SoftwareCard img="/img/s2.png" heading="Youtube Videos" para="As a skilled video editor, I enhance your content and create captivating YouTube videos, elevating your brand and helping you connect with your audience effectively." pro="" />
+                    <SoftwareCard img="/img/s1.webp" heading="Shorts & Reels" para="I specialize in crafting engaging short films and reels, delivering visually stunning and impactful content for diverse audiences." pro="true" />
+                    <SoftwareCard img="/img/s4.webp" heading="Ads & Promos" para="As a versatile video editor, I excel in producing attention-grabbing ads and promos for creators and brands, ensuring maximum visibility and engagement." pro="" />
                 </div>
             </div>
 

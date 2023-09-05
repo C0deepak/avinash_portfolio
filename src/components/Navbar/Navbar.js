@@ -1,14 +1,37 @@
 import React, { useEffect, useState } from 'react'
 import YellowButton from '../YellowButton/YellowButton'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { CgMenuRightAlt } from 'react-icons/cg'
 import './Navbar.css'
 
 const Navbar = () => {
   const [showSidebar, setShowSidebar] = useState(false)
-  
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    const cursorDot = document.querySelector('[data-cursor-dot]')
+    const cursorOutline = document.querySelector('[data-cursor-outline]')
+
+    window.addEventListener('mousemove', function (e) {
+      const posX = e.clientX
+      const posY = e.clientY
+
+      cursorDot.style.left = `${posX}px`
+      cursorDot.style.top = `${posY}px`
+
+      cursorOutline.animate({
+        left: `${posX}px`,
+        top: `${posY}px`
+      }, { duration: 500, fill: 'forwards' })
+    })
+    setShowSidebar(false)
+  }, [pathname])
+
+
   return (
     <div className="navbar">
+      <div className='cursor-dot' data-cursor-dot></div>
+      <div className='cursor-outline' data-cursor-outline></div>
       <div className="navbarLogo">LOGO</div>
       <div className="navbarLink">
         <Link to='/'>Home</Link>
