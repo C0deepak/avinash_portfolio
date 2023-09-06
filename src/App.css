@@ -40,3 +40,12 @@ body {
   z-index: 1000000;
   pointer-events: none;
 }
+
+@media (max-width: 580px) {
+
+  .cursor-dot,
+  .cursor-outline {
+    display: none;
+  }
+
+}
