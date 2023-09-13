@@ -14,9 +14,9 @@ const Home = () => {
 
             <div className="homeHero">
                 <div className="homeHeroText">
-                    <div className="homeHeroHeading">Empowering Your <br /><span>Imagination</span> Through Video</div>
-                    <div className="homeHeroPara">Hi I am <span>Avinash</span> an Android developer and ML and IoT enthusiast. <br />
-                        I have worked made various high demand projects. Have a youtube channel with over 90,000 views.</div>
+                    <div className="homeHeroHeading">Crafting Stories That<br /><span>Inspire</span></div>
+                    <div className="homeHeroPara">Hi! I am <span>Avinash</span> a video editor with an entrepreneur's heart over 3+ years of experience.<br />
+                        With a portfolio boasting 300k+ views and counting, I invite you to explore the magic that unfolds frame by frame in my creative journey.</div>
                     <a href='#about' className="homeHeroButton">Get Started <div className="homeHeroArrow" ><AiOutlineArrowRight /></div></a>
                 </div>
 
@@ -36,11 +36,11 @@ const Home = () => {
                 <div className="homeAboutLeft">
                     <HomeHeaders heading="Quick Info" subHeading="About me" />
                     <div className="homeALText">
-                        <div className="homeALTPara">I'm a 21 Year old Indian artist whose passions are all things Creative & Artistic, Music & Football.</div>
-                        <div className="homeALTPara">I've worked in the industry for 2+ years, creating a myriad of multimedia content for various clients, large & small.</div>
-                        <div className="homeALTPara">I wear many hats, I'm a Creative/Art Director & Multimedia Designer that can strategize, plan, manage, craft and execute virtually anything for any brand.</div>
+                        <div className="homeALTPara">Greetings, I'm Avinash, a 21-year-old dedicated to the art of video editing, who got to attend film school.</div>
+                        <div className="homeALTPara">With a deep-seated passion for visual storytelling, I've diligently refined my craft. My journey has also led me to gain valuable experience in the world of YouTube, understanding the intricate psychology of viewers.</div>
+                        <div className="homeALTPara">Now, I stand ready to breathe life into your stories, leveraging the artistry of video editing.</div>
                     </div>
-                    <YellowButton text="resume" />
+                    <a href="https://drive.google.com/file/d/1eRBCrNtMtEPbDpgviBiV3gboasGRiG9R/view?usp=sharing" target='_blank' className='resumeBtn'><YellowButton text="resume" /></a>
                     <div className="homeALSocial">
                         <div className="homeALSText">Social links :</div>
                         <div className="homeALSLinks">
@@ -58,12 +58,12 @@ const Home = () => {
             </div>
 
             <div className="homeSoftware">
-                <HomeHeaders heading="Services I Provide" subHeading="Services By Me" />
+                <HomeHeaders heading="Services" subHeading="Services By Me" />
                 <div className="homeSoftwareWrap">
-                    <SoftwareCard img="/img/s3.png" heading="Corporate videos" para="Crafting compelling corporate videos that tell your unique story, engage your audience, and elevate your brand's image with professionalism and creativity." pro="true" />
-                    <SoftwareCard img="/img/s2.png" heading="Youtube Videos" para="As a skilled video editor, I enhance your content and create captivating YouTube videos, elevating your brand and helping you connect with your audience effectively." pro="" />
-                    <SoftwareCard img="/img/s1.webp" heading="Shorts & Reels" para="I specialize in crafting engaging short films and reels, delivering visually stunning and impactful content for diverse audiences." pro="true" />
-                    <SoftwareCard img="/img/s4.webp" heading="Ads & Promos" para="As a versatile video editor, I excel in producing attention-grabbing ads and promos for creators and brands, ensuring maximum visibility and engagement." pro="" />
+                    <SoftwareCard img="/img/s3.png" heading="Corporate videos" para="Creating captivating corporate videos that seamlessly blend visual storytelling with business objectives to captivate audiences." pro="true" />
+                    <SoftwareCard img="/img/s2.png" heading="Youtube Videos" para="Producing captivating videos that seamlessly merge storytelling with viewer engagement, ensuring content that resonates and inspires." pro="" />
+                    <SoftwareCard img="/img/s1.webp" heading="Shorts & Reels" para="Creations that inspire and captivate beyond YouTube and Instagram." pro="true" />
+                    <SoftwareCard img="/img/s4.webp" heading="Ads & Promos" para="Blending storytelling with strategic appeal to create compelling content that inspires and sells." pro="" />
                 </div>
             </div>
 
@@ -74,11 +74,9 @@ const Home = () => {
                     <HomeHeaders heading="Listen to our clients" subHeading="Testimonials" />
 
                     <div className="testimonialSlider">
-                        <TestimonialCard para="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam" cName="Hams Stephen" cLocation="Las Vegas" />
-                        <TestimonialCard para="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam" cName="Hams Stephen" cLocation="Las Vegas" />
-                        <TestimonialCard para="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam" cName="Hams Stephen" cLocation="Las Vegas" />
-                        <TestimonialCard para="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam" cName="Hams Stephen" cLocation="Las Vegas" />
-                        <TestimonialCard para="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam" cName="Hams Stephen" cLocation="Las Vegas" />
+                        <TestimonialCard para="Avinash significantly contributed to the success of both my personal YouTube channel (180K+ views) and DappTales, the agency I founded." cName="Aamir Akhtar" cLocation="Banglore" />
+                        <TestimonialCard para="Avinash has been an absolute game-changer for Neuphony, our Shark Tank-backed venture. His editing and storytelling have transformed our content. We are grateful for his unwavering commitment." cName="Ria Rustagi" cLocation="India"/>
+                        <TestimonialCard para="Avinash at Scaler Studios is an outstanding video editor. He transforms our clients' visions into captivating stories. His expertise and dedication shine through in every project." cName="Mridul Khurana" cLocation="India"/>
                     </div>
                 </div>
             </div>

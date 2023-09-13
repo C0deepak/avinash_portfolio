@@ -73,6 +73,11 @@
     color: #FFC800;
 }
 
+.HireMe a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .navHam{
     display: none;
 }
@@ -88,5 +93,10 @@
 
     .HireMe{
         display: none;
+    }
+
+    a.mobileHire{
+        color: inherit;
+        text-decoration: none;
     }
 }

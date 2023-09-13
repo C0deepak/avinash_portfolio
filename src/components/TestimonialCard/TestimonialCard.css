@@ -1,6 +1,7 @@
 .testimonialCard {
     display: flex;
     min-width: 350px;
+    max-width: 350px;
     height: 230px;
     padding: 16px;
     flex-direction: column;

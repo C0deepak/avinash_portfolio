@@ -39,7 +39,7 @@ const Navbar = () => {
         <Link to='/contact'>Contact</Link>
       </div>
       <div className='HireMe'>
-        <YellowButton text="Hire Me" />
+        <Link to='/contact'><YellowButton text="Hire Me" /></Link>
       </div>
 
       <div className='navHam' onClick={() => setShowSidebar(!showSidebar)}><CgMenuRightAlt /></div>
@@ -49,7 +49,7 @@ const Navbar = () => {
           <Link to='/'>Home</Link>
           <Link to='/works'>Works</Link>
           <Link to='/contact'>Contact</Link>
-          <YellowButton text="Hire Me" />
+          <Link to='/contact' className='mobileHire'><YellowButton text="Hire Me" /></Link>
         </div>
       )}
     </div>
