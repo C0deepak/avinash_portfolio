@@ -20,6 +20,10 @@
     font-weight: 900;
 }
 
+.navbarLogo img{
+    height: 60px;
+}
+
 .navbarLink {
     display: flex;
     align-items: flex-start;
@@ -83,6 +87,10 @@
 }
 
 @media (max-width: 600px) {
+    .navbarLogo img{
+        height: 32px;
+    }
+
     .navbarLink{
         display: none;
     }

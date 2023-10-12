@@ -32,7 +32,9 @@ const Navbar = () => {
     <div className="navbar">
       <div className='cursor-dot' data-cursor-dot></div>
       <div className='cursor-outline' data-cursor-outline></div>
-      <div className="navbarLogo">LOGO</div>
+      <div className="navbarLogo">
+        <img src="/img/logo.png" alt="" />
+      </div>
       <div className="navbarLink">
         <Link to='/'>Home</Link>
         <Link to='/works'>Works</Link>
