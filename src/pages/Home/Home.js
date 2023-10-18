@@ -7,6 +7,7 @@ import { FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
 import SoftwareCard from '../../components/SoftwareCard/SoftwareCard'
 import { PiQuotesBold } from 'react-icons/pi'
 import TestimonialCard from '../../components/TestimonialCard/TestimonialCard'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
     return (
@@ -40,7 +41,10 @@ const Home = () => {
                         <div className="homeALTPara">With a deep-seated passion for visual storytelling, I've diligently refined my craft. My journey has also led me to gain valuable experience in the world of YouTube, understanding the intricate psychology of viewers.</div>
                         <div className="homeALTPara">Now, I stand ready to breathe life into your stories, leveraging the artistry of video editing.</div>
                     </div>
-                    <a href="https://drive.google.com/file/d/1eRBCrNtMtEPbDpgviBiV3gboasGRiG9R/view?usp=sharing" target='_blank' className='resumeBtn'><YellowButton text="resume" /></a>
+                    <div className="homeALButtons">
+                        <a href="https://drive.google.com/file/d/1eRBCrNtMtEPbDpgviBiV3gboasGRiG9R/view?usp=sharing" target='_blank' className='resumeBtn'><YellowButton text="resume" /></a>
+                        <Link to='/works' className="homeALBWork"><YellowButton text="works" /></Link>
+                    </div>
                     <div className="homeALSocial">
                         <div className="homeALSText">Social links :</div>
                         <div className="homeALSLinks">
@@ -75,8 +79,8 @@ const Home = () => {
 
                     <div className="testimonialSlider">
                         <TestimonialCard para="Avinash significantly contributed to the success of both my personal YouTube channel (180K+ views) and DappTales, the agency I founded." cName="Aamir Akhtar" cLocation="Banglore" />
-                        <TestimonialCard para="Avinash has been an absolute game-changer for Neuphony, our Shark Tank-backed venture. His editing and storytelling have transformed our content. We are grateful for his unwavering commitment." cName="Ria Rustagi" cLocation="India"/>
-                        <TestimonialCard para="Avinash at Scaler Studios is an outstanding video editor. He transforms our clients' visions into captivating stories. His expertise and dedication shine through in every project." cName="Mridul Khurana" cLocation="India"/>
+                        <TestimonialCard para="Avinash has been an absolute game-changer for Neuphony, our Shark Tank-backed venture. His editing and storytelling have transformed our content. We are grateful for his unwavering commitment." cName="Ria Rustagi" cLocation="India" />
+                        <TestimonialCard para="Avinash at Scaler Studios is an outstanding video editor. He transforms our clients' visions into captivating stories. His expertise and dedication shine through in every project." cName="Mridul Khurana" cLocation="India" />
                     </div>
                 </div>
             </div>
