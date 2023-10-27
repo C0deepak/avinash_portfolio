@@ -52,7 +52,6 @@ const Work = () => {
       <div className='workYoutube'>
         <div className="wYHeading">Ads and Promos</div>
         <div className='wYWrap'>
-          <iframe src="https://www.youtube.com/embed/uYqZtot8JjI?si=mg1TVAvPkSUO867L?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
           <iframe src="https://www.youtube.com/embed/6jtoc8AIARg?si=jLr4KEaJQXOby1ep?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
           <iframe src="https://www.youtube.com/embed/nGNmtz_e7rE?si=7kpwNZYn75ckeYOI?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
           <iframe src="https://www.youtube.com/embed/7-AHUApESO8?si=7jSvhfjcV_ACCB98?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
