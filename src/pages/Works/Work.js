@@ -61,7 +61,7 @@ const Work = () => {
           <div className="workHeroHeading">Hope you liked my <span>Work</span></div>
           <div className="workCLText">
             <div className="workCLTPara">
-              I trust you found my work enjoyable. I am dedicated to realizing your creative vision. If you have any insights to share or future collaborations in mind, please feel free to get in touch. I deeply appreciate your selection of my services.
+              I trust you found my work enjoyable😁. I am dedicated to realizing your creative vision. If you have any insights to share or future collaborations in mind, please feel free to get in touch. I deeply appreciate your selection of my services.
             </div>
           </div>
           <Link to='/contact'><YellowButton text="Contact Me" /></Link>
