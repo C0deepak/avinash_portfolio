@@ -12,7 +12,8 @@ const Work = () => {
       <div className='workHero'>
         <div className="workHeroText">
           <div className="workHeroHeading" style={{ textAlign: 'center' }}>Showcasing My <span>Creations</span></div>
-      </div>
+    </div>    
+  </div>
 
       <div className='workYoutube'>
         <div className="wYHeading">Corporate Videos</div>
