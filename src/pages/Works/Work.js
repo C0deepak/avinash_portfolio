@@ -12,8 +12,6 @@ const Work = () => {
       <div className='workHero'>
         <div className="workHeroText">
           <div className="workHeroHeading" style={{ textAlign: 'center' }}>Showcasing My <span>Creations</span></div>
-          <div className="workHeroPara">I am involved in a diverse array of projects, from mesmerizing YouTube videos to impactful commercials, each a testament to my commitment to visual storytelling. Join me on this visual journey, where every frame tells a unique tale.</div>
-        </div>
       </div>
 
       <div className='workYoutube'>
@@ -63,16 +61,9 @@ const Work = () => {
 
       <div className="workContact">
         <div className="workContactLeft">
-          <div className="workHeroHeading">Hope you liked my <span>Work</span></div>
           <div className="workCLText">
-            <div className="workCLTPara">
-              I trust you found my work enjoyable😁. I am dedicated to realizing your creative vision. If you have any insights to share or future collaborations in mind, please feel free to get in touch. I deeply appreciate your selection of my services.
-            </div>
           </div>
           <Link to='/contact'><YellowButton text="Contact Me" /></Link>
-        </div>
-        <div className="workContactRight">
-          <img src="/img/wc.png" alt="" />
         </div>
       </div>
     </div>
