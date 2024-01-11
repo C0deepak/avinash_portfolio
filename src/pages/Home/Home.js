@@ -61,15 +61,6 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="homeSoftware">
-                <HomeHeaders heading="Services" subHeading="Services By Me" />
-                <div className="homeSoftwareWrap">
-                    <SoftwareCard img="/img/s3.png" heading="Corporate videos" para="Creating captivating corporate videos that seamlessly blend visual storytelling with business objectives to captivate audiences." pro="true" />
-                    <SoftwareCard img="/img/s2.png" heading="Youtube Videos" para="Producing captivating videos that seamlessly merge storytelling with viewer engagement, ensuring content that resonates and inspires." pro="" />
-                    <SoftwareCard img="/img/s1.webp" heading="Shorts & Reels" para="Creations that inspire and captivate beyond YouTube and Instagram." pro="true" />
-                    <SoftwareCard img="/img/s4.webp" heading="Ads & Promos" para="Blending storytelling with strategic appeal to create compelling content that inspires and sells." pro="" />
-                </div>
-            </div>
 
             <div className="homeTestimonial">
                 <PiQuotesBold className='homeTDArrow' />
