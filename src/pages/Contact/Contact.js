@@ -12,7 +12,7 @@ const Contact = () => {
       <div className='contactHero'>
         <div className="contactHeroText">
           <div className="contactHeroHeading">Feel free to <span>Reach me</span></div>
-          </div>
+        </div>
       </div>
 
       <div className='contactAbout'>
@@ -33,31 +33,32 @@ const Contact = () => {
             </div>
           </div>
 
-          
-        <div className="contactAboutRight">
-          <form action="https://formspree.io/f/xpzgrwlw"
-            method="POST">
-            <div className='contactARFHeading'>Contact Me</div>
-            <div className='contactARFForm'>
-              <input type="text" name="Name" placeholder='Name' />
-              <input type="email" name="Email" placeholder='Email' />
-              <input type="text" name="Subject" placeholder='Subject' />
-              <input type="text" name="Message" placeholder='Message' />
-            </div>
-            <button type='submit'>Send</button>
-          </form>
+
+          <div className="contactAboutRight">
+            <form action="https://formspree.io/f/xpzgrwlw"
+              method="POST">
+              <div className='contactARFHeading'>Contact Me</div>
+              <div className='contactARFForm'>
+                <input type="text" name="Name" placeholder='Name' />
+                <input type="email" name="Email" placeholder='Email' />
+                <input type="text" name="Subject" placeholder='Subject' />
+                <input type="text" name="Message" placeholder='Message' />
+              </div>
+              <button type='submit'>Send</button>
+            </form>
+          </div>
         </div>
-      </div>
 
-      <div className='contactFaq'>
-        <div className='otherHeading'>Frequently Asked Questions <span>(FAQs)</span></div>
+        <div className='contactFaq'>
+          <div className='otherHeading'>Frequently Asked Questions <span>(FAQs)</span></div>
 
-        <div className="contactFaqWrap">
-          {
-            FaqData.map((ques) => {
-              return <AccordianCard key={ques.id} ques={ques.question} ans={ques.answer} />
-            })
-          }
+          <div className="contactFaqWrap">
+            {
+              FaqData.map((ques) => {
+                return <AccordianCard key={ques.id} ques={ques.question} ans={ques.answer} />
+              })
+            }
+          </div>
         </div>
       </div>
     </div>
