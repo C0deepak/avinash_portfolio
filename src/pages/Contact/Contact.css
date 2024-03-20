@@ -100,16 +100,16 @@ a.buttonLink {
 }
 
 .contactALSocial {
+    margin-top: 40px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .contactALSText {
     color: #E8E8E8;
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 700;
 }
 
@@ -118,13 +118,13 @@ a.buttonLink {
     padding: 10px 0px;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
 }
 
 .contactALSLinks a {
     color: #AEAEAE;
     text-decoration: none;
-    font-size: 1.32rem;
+    font-size: 2rem;
 }
 
 .contactAboutLeftBottom {
