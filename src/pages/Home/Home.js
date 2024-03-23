@@ -37,7 +37,7 @@ const Home = () => {
                 <div className="homeAboutLeft">
                     <HomeHeaders heading="Quick Info" subHeading="About me" />
                     <div className="homeALText">
-                        <div className="homeALTPara">Greetings, I'm Avinash, a 21-year-old dedicated to the art of video editing, who got to attend film school.</div>
+                        <div className="homeALTPara">Greetings, I'm Avinash, a 22-year-old dedicated to the art of video editing, who got to attend film school.</div>
                         <div className="homeALTPara">With a deep-seated passion for visual storytelling, I've diligently refined my craft. My journey has also led me to gain valuable experience in the world of YouTube, understanding the intricate psychology of viewers.</div>
                         <div className="homeALTPara">Now, I stand ready to breathe life into your stories, leveraging the artistry of video editing.</div>
                     </div>
