@@ -17,7 +17,7 @@ const Home = () => {
                 <div className="homeHeroText">
                     <div className="homeHeroHeading">Crafting Stories That<br /><span>Inspire</span></div>
                     <div className="homeHeroPara">Hi! I am <span>Avinash</span> a video editor with an entrepreneur's heart over 3+ years of experience.<br />
-                        With a portfolio boasting 300k+ views and counting, I invite you to explore the magic that unfolds frame by frame in my creative journey.</div>
+                        With a portfolio boasting 800K+ views and counting, I invite you to explore the magic that unfolds frame by frame.</div>
                     <a href='#about' className="homeHeroButton">Get Started <div className="homeHeroArrow" ><AiOutlineArrowRight /></div></a>
                 </div>
 
@@ -37,8 +37,8 @@ const Home = () => {
                 <div className="homeAboutLeft">
                     <HomeHeaders heading="Quick Info" subHeading="About me" />
                     <div className="homeALText">
-                        <div className="homeALTPara">Greetings, I'm Avinash, a 22-year-old dedicated to the art of video editing, who got to attend film school.</div>
-                        <div className="homeALTPara">Ever since my First Movie How to Train Your Dragon I just fell in love with this art. My journey has also led me to gain valuable experience in the world of YouTube, understanding the intricate psychology of viewers.</div>
+                        <div className="homeALTPara">GM!, I'm Avinash, a 22-year-old dedicated to the art of video editing, Earned a spot in the prestigious world of film school.</div>
+                        <div className="homeALTPara">Ever since my First Movie - How to Train Your Dragon I just fell in love with this art. My journey led me to gain valuable experience in understanding the intricate psychology of viewers.</div>
                         <div className="homeALTPara">Now, I stand ready to breathe life into your stories through video editing.</div>
                     </div>
                     <div className="homeALButtons">
