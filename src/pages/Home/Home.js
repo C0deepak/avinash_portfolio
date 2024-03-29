@@ -51,7 +51,7 @@ const Home = () => {
                             <a href="https://www.instagram.com/mostcreativename/" target='_blank'><AiFillInstagram /></a>
                             <a href="https://www.youtube.com/channel/UC16fdPcHgOz4L9OY5Ryk6dg" target='_blank'><FaYoutube /></a>
                             <a href="https://twitter.com/Avinash4776947" target='_blank'><FaTwitter /></a>
-                            <a href="https://www.linkedin.com/in/avinash-kumar-yadav-99602520b" target='_blank'><FaLinkedin /></a>
+                            <a href="https://www.linkedin.com/in/beyond-avinash/" target='_blank'><FaLinkedin /></a>
                         </div>
                     </div>
                 </div>
