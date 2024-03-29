@@ -69,9 +69,9 @@ const Home = () => {
                     <HomeHeaders heading="Listen to our clients" subHeading="Testimonials" />
 
                     <div className="testimonialSlider">
-                        <TestimonialCard para="Avinash significantly contributed to the success of both my personal YouTube channel (180K+ views) and DappTales, the agency I founded." cName="Aamir Akhtar" cLocation="Banglore" />
-                        <TestimonialCard para="Avinash has been an absolute game-changer for Neuphony, our Shark Tank-backed venture. His editing and storytelling have transformed our content." cName="Ria Rustagi" cLocation="India" />
-                        <TestimonialCard para="Avinash at Scaler Studios is an outstanding video editor. He transforms our clients' visions into captivating stories." cName="Mridul Khurana" cLocation="India" />
+                        <TestimonialCard para="A fantastic editor who always goes the extra mile. His attention to detail and creativity are amazing" cName="Aamir Akhtar" cLocation="Banglore" />
+                        <TestimonialCard para="Working with him has been a breeze. He did thorough research for our project and understands our brand perfectly" cName="Ria Rustagi" cLocation="India" />
+                        <TestimonialCard para="He consistently creates visually appealing edits, simplifying complex ideas beautifully" cName="Mridul Khurana" cLocation="India" />
                     </div>
                 </div>
             </div>
