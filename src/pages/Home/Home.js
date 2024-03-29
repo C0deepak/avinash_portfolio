@@ -68,9 +68,9 @@ const Home = () => {
                     <HomeHeaders heading="Listen to our clients" subHeading="Testimonials" />
 
                     <div className="testimonialSlider">
-                        <TestimonialCard para="A fantastic editor who always goes the extra mile. His attention to detail and creativity are amazing" cName="Aamir Akhtar" cLocation="Banglore" />
-                        <TestimonialCard para="Working with him has been a breeze. He did thorough research for our project and understands our brand perfectly" cName="Ria Rustagi" cLocation="India" />
-                        <TestimonialCard para="He consistently creates visually appealing edits, simplifying complex ideas beautifully" cName="Mridul Khurana" cLocation="India" />
+                        <TestimonialCard para="A fantastic editor who always goes the extra mile. His attention to detail and creativity are amazing" cName="Aamir Akhtar" cLocation="DAppTales" />
+                        <TestimonialCard para="Working with him has been a breeze. He did thorough research for our project and understands our brand perfectly" cName="Ria Rustagi" cLocation="Neuphony" />
+                        <TestimonialCard para="He consistently creates visually appealing edits, simplifying complex ideas beautifully" cName="Mridul Khurana" cLocation="Scaler Studios" />
                     </div>
                 </div>
             </div>
