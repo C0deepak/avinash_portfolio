@@ -42,7 +42,6 @@ const Home = () => {
                         <div className="homeALTPara">Now, I stand ready to breathe life into your stories through video editing.</div>
                     </div>
                     <div className="homeALButtons">
-                        <a href="https://drive.google.com/file/d/1eRBCrNtMtEPbDpgviBiV3gboasGRiG9R/view?usp=sharing" target='_blank' className='resumeBtn'><YellowButton text="resume" /></a>
                         <Link to='/works' className="homeALBWork"><YellowButton text="works" /></Link>
                     </div>
                     <div className="homeALSocial">
