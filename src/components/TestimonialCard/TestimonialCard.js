@@ -8,9 +8,12 @@ const TestimonialCard = (props) => {
         <div className='testimonialCard'>
             <div className="tCStars"><BiSolidStar /><BiSolidStar /><BiSolidStar /><BiSolidStar /><BiSolidStar /></div>
             <div className="tCPara">{props.para}</div>
-            <div className="tCClient">
-                <div className="tCCName">{props.cName}</div>
-                <div className="tCCLocation"><IoLocationOutline />{props.cLocation}</div>
+            <div className="tCFClient">
+                <img src={props.cImg} alt="clientImg" />
+                <div className="tCClient">
+                    <div className="tCCName">{props.cName}</div>
+                    <div className="tCCLocation"><IoLocationOutline />{props.cLocation}</div>
+                </div>
             </div>
         </div>
     )
