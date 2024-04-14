@@ -17,7 +17,7 @@ const Home = () => {
                 <div className="homeHeroText">
                     <div className="homeHeroHeading">Crafting Stories That<br /><span>Inspire</span></div>
                     <div className="homeHeroPara">Hi! I am <span>Avinash</span> a video editor with an entrepreneur's heart over 3+ years of experience.<br />
-                        With a portfolio boasting 300k+ views and counting, I invite you to explore the magic that unfolds frame by frame in my creative journey.</div>
+                        With a portfolio boasting 800K+ views and counting, I invite you to explore the magic that unfolds frame by frame.</div>
                     <a href='#about' className="homeHeroButton">Get Started <div className="homeHeroArrow" ><AiOutlineArrowRight /></div></a>
                 </div>
 
@@ -37,12 +37,11 @@ const Home = () => {
                 <div className="homeAboutLeft">
                     <HomeHeaders heading="Quick Info" subHeading="About me" />
                     <div className="homeALText">
-                        <div className="homeALTPara">Greetings, I'm Avinash, a 21-year-old dedicated to the art of video editing, who got to attend film school.</div>
-                        <div className="homeALTPara">With a deep-seated passion for visual storytelling, I've diligently refined my craft. My journey has also led me to gain valuable experience in the world of YouTube, understanding the intricate psychology of viewers.</div>
-                        <div className="homeALTPara">Now, I stand ready to breathe life into your stories, leveraging the artistry of video editing.</div>
+                        <div className="homeALTPara">GM!, I'm Avinash, a 22-year-old dedicated to the art of video editing, Earned a spot in the prestigious world of film school.</div>
+                        <div className="homeALTPara">Ever since my First Movie - How to Train Your Dragon I just fell in love with this art. My journey led me to gain valuable experience in understanding the intricate psychology of viewers.</div>
+                        <div className="homeALTPara">Now, I stand ready to breathe life into your stories through video editing.</div>
                     </div>
                     <div className="homeALButtons">
-                        <a href="https://drive.google.com/file/d/1eRBCrNtMtEPbDpgviBiV3gboasGRiG9R/view?usp=sharing" target='_blank' className='resumeBtn'><YellowButton text="resume" /></a>
                         <Link to='/works' className="homeALBWork"><YellowButton text="works" /></Link>
                     </div>
                     <div className="homeALSocial">
@@ -51,7 +50,7 @@ const Home = () => {
                             <a href="https://www.instagram.com/mostcreativename/" target='_blank'><AiFillInstagram /></a>
                             <a href="https://www.youtube.com/channel/UC16fdPcHgOz4L9OY5Ryk6dg" target='_blank'><FaYoutube /></a>
                             <a href="https://twitter.com/Avinash4776947" target='_blank'><FaTwitter /></a>
-                            <a href="https://www.linkedin.com/in/avinash-kumar-yadav-99602520b" target='_blank'><FaLinkedin /></a>
+                            <a href="https://www.linkedin.com/in/beyond-avinash/" target='_blank'><FaLinkedin /></a>
                         </div>
                     </div>
                 </div>
@@ -70,7 +69,7 @@ const Home = () => {
 
                     <div className="testimonialSlider">
                         <TestimonialCard para="Avinash significantly contributed to the success of both my personal YouTube channel (180K+ views) and DappTales, the agency I founded." cName="Aamir Akhtar" cLocation="Banglore" cImg="/img/aamir.png"/>
-                        <TestimonialCard para="Avinash has been an absolute game-changer for Neuphony, our Shark Tank-backed venture. His editing and storytelling have transformed our content." cName="Ria Rustagi" cLocation="India" cImg="/img/ria.png"/>
+                        <TestimonialCard para="Avinash is an absolute game-changer for Neuphony, Shark Tank-backed venture. His editing and storytelling have transformed our content." cName="Ria Rustagi" cLocation="India" cImg="/img/ria.png"/>
                         <TestimonialCard para="Avinash at Scaler Studios is an outstanding video editor. He transforms our clients' visions into captivating stories. Truly Transformative" cName="Mridul Khurana" cLocation="India" cImg="/img/mridul.png"/>
                     </div>
                 </div>

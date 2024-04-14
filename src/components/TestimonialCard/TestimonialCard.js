@@ -6,7 +6,7 @@ import './TestimonialCard.css'
 const TestimonialCard = (props) => {
     return (
         <div className='testimonialCard'>
-            <div className="tCStars"><BiSolidStar /><BiSolidStar /><BiSolidStar /><BiSolidStar /><BiSolidStar /></div>
+            <div className="tCStars"></div>
             <div className="tCPara">{props.para}</div>
             <div className="tCFClient">
                 <img src={props.cImg} alt="clientImg" />
