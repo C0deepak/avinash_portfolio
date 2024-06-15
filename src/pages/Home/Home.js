@@ -68,7 +68,7 @@ const Home = () => {
                     <HomeHeaders heading="Listen to our clients" subHeading="Testimonials" />
 
                     <div className="testimonialSlider">
-                        <TestimonialCard para="A fantastic editor who always goes the extra mile. His attention to detail and creativity are amazing"" cName="Aamir Akhtar" cLocation="Banglore" cImg="/img/aamir.png"/>
+                        <TestimonialCard para="A fantastic editor who always goes the extra mile. His attention to detail and creativity are amazing" cName="Aamir Akhtar" cLocation="Banglore" cImg="/img/aamir.png"/>
                         <TestimonialCard para="Working with him has been a breeze. He did thorough research for our project and understands our brand perfectly" cName="Ria Rustagi" cLocation="India" cImg="/img/ria.png"/>
                         <TestimonialCard para="He consistently creates visually appealing edits, simplifying complex ideas beautifully" cName="Mridul Khurana" cLocation="India" cImg="/img/mridul.png"/>
                     </div>
