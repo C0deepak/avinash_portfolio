@@ -17,7 +17,7 @@ const Home = () => {
                 <div className="homeHeroText">
                     <div className="homeHeroHeading">Crafting Stories That<br /><span>Inspire</span></div>
                     <div className="homeHeroPara">Hi! I am <span>Avinash</span> a video editor with an entrepreneur's heart over 3+ years of experience.<br />
-                        With a portfolio boasting 1.2 M views and counting, I invite you to explore the magic that unfolds frame by frame.</div>
+                        With a portfolio boasting 1.2M views and counting, I invite you to explore the magic that unfolds frame by frame.</div>
                     <a href='#about' className="homeHeroButton">Get Started <div className="homeHeroArrow" ><AiOutlineArrowRight /></div></a>
                 </div>
 
