@@ -50,18 +50,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className='contactFaq'>
-        <div className='otherHeading'>Frequently Asked Questions <span>(FAQs)</span></div>
-
-        <div className="contactFaqWrap">
-          {
-            FaqData.map((ques) => {
-              return <AccordianCard key={ques.id} ques={ques.question} ans={ques.answer} />
-            })
-          }
-        </div>
-      </div>
-    </div>
+      
   )
 }
 
