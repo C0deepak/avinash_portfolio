@@ -11,7 +11,7 @@ const Work = () => {
     <div className='work'>
       <div className='workHero'>
         <div className="workHeroText">
-          <div className="workHeroHeading" style={{ textAlign: 'center' }}>Showcasing My <span>Creations</span></div>
+          <div className="workHeroHeading" style={{ textAlign: 'center' }}>Showcasing Our <span>Creations</span></div>
     </div>    
   </div>
 
