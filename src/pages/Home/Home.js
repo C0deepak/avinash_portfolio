@@ -44,6 +44,9 @@ const Home = () => {
                     <div className="homeALButtons">
                         <Link to='/works' className="homeALBWork"><YellowButton text="works" /></Link>
                     </div>
+                    <div className="homeALButtons">
+                        <Link to='https://aceedits.notion.site/CASE-STUDIES-4899914f16d246378f71aa894eb9966d?pvs=4' className="homeALBWork"><YellowButton text="Case Studies" /></Link>
+                    </div>
                     <div className="homeALSocial">
                         <div className="homeALSText">Social links :</div>
                         <div className="homeALSLinks">
