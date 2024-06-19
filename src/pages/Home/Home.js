@@ -23,7 +23,7 @@ const Home = () => {
 
                 <div className="homeHeroCardWrap">
                     <div className='homeHeroCardLevel'>
-                        <div className="homeHeroCard"><img src="/img/b1.png" alt="brand" /></div>
+                        <div className="homeHeroCard"><img src="/img/buk.png" alt="brand" /></div>
                         <div className="homeHeroCard"><img src="/img/beasly2.png" alt="brand" /></div>
                     </div>
                     <div className='homeHeroCardLevel'>
