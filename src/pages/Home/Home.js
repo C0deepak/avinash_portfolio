@@ -28,7 +28,7 @@ const Home = () => {
                     </div>
                     <div className='homeHeroCardLevel'>
                         <div className="homeHeroCard"><img src="/img/b3.png" alt="brand" /></div>
-                        <div className="homeHeroCard"><img src="/img/unnamed 1.png" alt="brand" /></div>
+                        <div className="homeHeroCard"><img src="/img/pharma logo.png" alt="brand" /></div>
                     </div>
                 </div>
             </div>
