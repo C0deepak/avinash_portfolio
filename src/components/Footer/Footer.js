@@ -5,9 +5,10 @@ const Footer = () => {
   return (
     <div className='footer'>
         <div className="footerCopy">
-            copyright &copy; BeyondAvinash 
+            copyright &copy; BeyondAvinash 2023-24
         </div>
-        
+        <div className="footerProm">
+        </div>
     </div>
   )
 }
