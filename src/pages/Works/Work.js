@@ -65,7 +65,7 @@ const Work = () => {
         <div className="workContactLeft">
           <div className="workCLText">
           </div>
-          <Link to='/contact'><YellowButton text="Contact Me" /></Link>
+          <Link to='/contact'><YellowButton text="Contact Us" /></Link>
         </div>
       </div>
     </div>
