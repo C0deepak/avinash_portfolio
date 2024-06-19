@@ -41,7 +41,7 @@ const Navbar = () => {
         <Link to='/contact'>Contact</Link>
       </div>
       <div className='HireMe'>
-        <Link to='/contact'><YellowButton text="Hire Me" /></Link>
+        <Link to='/contact'><YellowButton text="Create Your Stories" /></Link>
       </div>
 
       <div className='navHam' onClick={() => setShowSidebar(!showSidebar)}><CgMenuRightAlt /></div>
